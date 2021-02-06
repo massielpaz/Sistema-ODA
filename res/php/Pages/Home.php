@@ -16,8 +16,6 @@ class Home extends Page {
      */
     public function __construct(Extended $Extended = NULL) {
         parent::__construct($Extended, "Home");
-
-        $this->initVars();
     }
 
     public function initVars() {
